@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+    <script src='https://kit.fontawesome.com/ed833673d8.js' crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link class="include" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <link class="include" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link class="include" href="http://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link class="include" href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link id="main-sheet" rel="stylesheet" href="https://app.saul.angry.ventures/themes/yeti/stylesheet.css">
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <ul id="navbarID" class="navbar">
+            <li><a class="navlink" href="#team">About</a></li>
+            <li><a class="active navlink" href="#index">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="body_Data">
+        <!-- first row started -->
+        <img style='height: 100%; width: 100%; object-fit: contain' class="story-image" src="cryptocurrency.jpg" alt="story">
+
+        <!-- second row started -->
+        <section class="second-Row-Container">
+            <div class="space-Container">
+                <div>
+                    <h1 class="space-Header">Digital Currency</h1>
+                    <p class="write-Story">--Transactions made easy.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <nav class="navbar2">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo">Crypto</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span> <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="#home" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="table.html" class="navbar__links">Coins</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="second.html" class="navbar__links">Bitcoin</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="third.html" class="navbar__links">Ethereum</a>
+                    </li>
+                    <li class="navbar__btn"><a href="/" class="button">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <hr>
+
+        <section class="fourth-Row-Container">
+            <div id="chart-Data">
+                <h2 class="coin_Updates">Latest Coin Price Updates</h2>
+                <canvas id="barchartexample" width="800" height="450"></canvas>
+            </div>
+        </section>
+
+        <section id="team" class="bg-light-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Our Amazing Team</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="team-member">
+
+                            <h4>KAUSHIK VAKA</h4>
+                            <img style='height: 50%; width: 50%;' src="Pict3.jpg" alt="story">
+                            <p class="text-muted">Kaushik is the main person behind the idea of THE DIGITAL CURRENCY. He's good with coding and leverages it to solve real time problems. He bootstrapped THE DIGITAL CURRENCY to be appealing and ideal.</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://github.com/KaushikVaka"><i class="fa fa-github"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+
+                            <h4>PRAHLAD</h4>
+                            <img style='height: 50%; width: 50%;' src="Pict1.jpg" alt="story">
+                            <p class="text-muted">Prahalada solely worked on designing the pages. He sketched the data model and used his knowledge for smooth implementation of THE DIGITAL CURRENCY.</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://github.com/PrahaladaReddyDommata"><i class="fa fa-github"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+
+                            <h4>LAHARI GOSHIKA</h4>
+                            <img style='height: 50%; width: 50%;' src="Pict2.jpg" alt="story">
+                            <p class="text-muted">Lahari worked on implementing THE DIGITAL CURRENCY. She's good with helping the team to achieve the goal by giving valuable inputs and ensuring steady Team engagement.</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://github.com/Laharigoshika"><i class="fa fa-github"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h2 style="text-align:center">Data Model</h2>
+                    <img style='height: 50%; display: block; margin-left: auto; margin-right: auto; width: 50%;' class="center" src="BlockDiagram.jpg" alt="story">
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js">
+        // header onScroll logic
+    </script>
+
+</body>
+
+</html>
